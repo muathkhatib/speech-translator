@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function TextBox({ title, body }) {
   return (
     <div style={{
@@ -19,5 +21,10 @@ function TextBox({ title, body }) {
     </div>
   );
 }
+
+TextBox.propTypes = {
+  title: PropTypes.string.isRequired,
+  body: PropTypes.string.isRequired,
+};
 
 export default TextBox;
