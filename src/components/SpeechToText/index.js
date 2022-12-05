@@ -88,7 +88,7 @@ function SpeechToText() {
     }}
     >
       <div style={{
-        margin: '0 auto', width: '50%', border: '1p solid green', height: '5vh', display: 'flex', justifyContent: 'space-around', alignItems: 'center',
+        margin: '0 auto', width: '25%', border: '1p solid green', height: '5vh', display: 'flex', justifyContent: 'space-around', alignItems: 'center',
       }}
       >
         {console.log(languages.filter((e) => e.id === speechLanguage)[0].value)}
