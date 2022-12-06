@@ -32,8 +32,8 @@ function SpeechToText() {
         url: 'https://google-translate1.p.rapidapi.com/language/translate/v2',
         headers: {
           'content-type': 'application/x-www-form-urlencoded',
-          Accept: 'application/json',
-          'X-RapidAPI-Key': '4946b39662mshdc3b8b78943ecb1p1267f9jsn57481aac253b',
+          'Accept-Encoding': 'application/json',
+          'X-RapidAPI-Key': '469c1ee794msh8a7c6f3db2abd58p1e322ejsn1ead0ede256f',
           'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com',
         },
         data: encodedParams,
