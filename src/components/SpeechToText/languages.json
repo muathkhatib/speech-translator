@@ -10,5 +10,13 @@
     {
       "id": "en",
       "value": "English"
+    },
+    {
+      "id": "ps",
+      "value": "Pashto"
+    },
+    {
+      "id": "fa",
+      "value": "Dari"
     }
   ]
